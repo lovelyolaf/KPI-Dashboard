@@ -43,3 +43,15 @@ Place your data files in the `data/` directory with the following names:
 1. Data files follow the exact format of the provided sample files
 2. All currency values are in GBP (£)
 3. Time periods are monthly
+
+## Screen
+
+![OEE Dashboard](screen.png)
+
+## License
+
+MIT License
+
+## Author
+
+[Lovelyolaf](https://github.com/lovelyolaf)
