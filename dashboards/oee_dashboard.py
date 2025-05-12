@@ -65,7 +65,7 @@ def show_oee_dashboard():
                         })
         
         detailed_df = pd.DataFrame(detailed_data)
-        detailed_df['OEE'] = (detailed_df['Availability'] * detailed_df['Performance'] * detailed_df['Quality']) / 10000
+        detailed_df['OEE'] = (detailed_df['Availability'] * detailed_df['Performance'] * detailed_df['Quality']) / 1000000
         
         # Add root cause data
         root_causes = [
